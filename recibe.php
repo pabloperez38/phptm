@@ -17,7 +17,7 @@ if (isset($_POST['form']) && $_POST['form'] == 'login') {
 
 if (isset($_POST['form']) && $_POST['form'] == 'carta') { ?>
 
-    <h4>Hola, esta es mi presentacion, mi nombre es <?php echo  $_POST["nombre"] . " " . $_POST["apellido"]; ?> direccion <?php echo  $_POST["direccion"]; ?> y teléfono <?php echo $_POST["telefono"]; ?> </h4>
+    <h4>Hola, esta es mi presentacion, mi nombre es <?php echo  $_POST["nombre"] . " " . $_POST["apellido"]; ?> dirección <?php echo  $_POST["direccion"] . " " . $_POST["numero"]; ?> y teléfono <?php echo $_POST["telefono"]; ?> </h4>
 
 <?php }
 

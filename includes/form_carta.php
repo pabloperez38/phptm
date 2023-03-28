@@ -11,8 +11,11 @@
             <label class="mt-3" for="apellido"><strong>Apellido:</strong></label>
             <input class="form-control" type="text" name="apellido" id="apellido" required />
 
-            <label class="mt-3" for="direccion"><strong>Dirección:</strong></label>
+            <label class="mt-3" for="direccion"><strong>Calle:</strong></label>
             <input class="form-control" type="text" name="direccion" id="direccion" required />
+
+            <label class="mt-3" for="numero"><strong>Número:</strong></label>
+            <input class="form-control" type="number" name="numero" id="numero" required />
 
             <label class="mt-3" for="telefono"><strong>Teléfono:</strong></label>
             <input class="form-control" type="number" name="telefono" id="telefono" required />
